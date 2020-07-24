@@ -1,0 +1,104 @@
+div {
+    width: 1200px;
+    margin: auto;
+    border: 2px solid white; 
+}
+
+#header {
+
+    margin: auto;
+    width: 100%;
+    background-color: rgb(255, 87, 51);
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    transition: width 2s;
+}
+
+#header:hover {
+  width: 300px;
+}
+
+#navbar {           /*ancho de menu, color de meny */
+    width: 100%;
+    background-color:#7E7C7A ;
+    overflow: auto;
+}
+
+        #navbar a { /* cada uno de los menus */
+        float: left; /* todos los menus esten alineados a la izquierda*/
+        padding: 10px; /*grosor de la barra de menu*/
+        color: white; /*color de texto*/
+        font-family: sans-serif;
+        font-size: 17px; /*tamaño de texto*/
+        width: 10%; /* tamaño de cada menu*/
+        text-align: center; /* el texto de los menu alineado */
+}
+
+/* color cuando el puntero del mouse este sobre los menu */
+        #navbar a:hover {
+        background-color: #FFAF33;
+}
+
+/* estilo del menu activo*/
+        #navbar a.active {
+        background-color: #B4B3B1 ;
+}
+
+#cotenido {
+    width : 100%;
+    background-color: bisque;
+    height: 600px;
+    transition: width 2s, height 4s;
+
+}
+
+	#main{
+				float:left;
+				width:69%;
+			}
+
+			#sidebar-right{
+				float:right;
+				width:30%;
+				background-color:#E5E4E3;
+			}
+
+			#footer{
+				margin: auto;
+                width: 100%;
+                background-color: rgb(255, 87, 51);
+                color: white;
+                text-align: center;
+                font-family: sans-serif;
+                font-size: 11px;
+            }
+
+     #main, #sidebar-right{
+				min-height: 600px				
+			}
+th, td {
+  padding: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium';
+}
+
+table{
+    border-spacing: 5px;
+}
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+img{
+    width : 150;
+    height: 150; 
+    border-radius: 50%;
+}
+
+a.ex2:hover{
+    font-size: 150%;
+
+}
